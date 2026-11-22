@@ -1,0 +1,32 @@
+{
+  "name": "ethereum-wallet-balance-checker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "tsx src/index.ts",
+  "build": "tsc",
+  "start": "node dist/index.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaizM05/ethereum-wallet-balance-checker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "bugs": {
+    "url": "https://github.com/FaizM05/ethereum-wallet-balance-checker/issues"
+  },
+  "homepage": "https://github.com/FaizM05/ethereum-wallet-balance-checker#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "viem": "^2.58.4"
+  }
+}
