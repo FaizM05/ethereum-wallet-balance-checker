@@ -5,10 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "dev": "tsx src/index.ts",
-  "build": "tsc",
-  "start": "node dist/index.js"
-},
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FaizM05/ethereum-wallet-balance-checker.git"
@@ -16,7 +16,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  
   "bugs": {
     "url": "https://github.com/FaizM05/ethereum-wallet-balance-checker/issues"
   },
@@ -28,5 +27,8 @@
   },
   "dependencies": {
     "viem": "^2.58.4"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
   }
 }
